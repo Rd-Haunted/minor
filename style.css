@@ -1049,12 +1049,12 @@ input[placeholder]{
 .about_page_section_3{
     margin-bottom: 115px;
 }
-.card_1{
+.about_page_section_3 .card_1{
     background-color: #F9F9F9;
     padding: 20px;
     border-radius: 10px;
 }
-.card_1 .inner_div{
+.about_page_section_3 .card_1 .inner_div{
     background-color: #5CA515;
     display: inline-block;
     padding: 18px;
@@ -1068,7 +1068,7 @@ input[placeholder]{
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.card_1 h3{
+.about_page_section_3 .card_1 h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -1077,7 +1077,7 @@ input[placeholder]{
     margin: 0;
     max-width: 327px;
 }
-.card_1 p{
+.about_page_section_3 .card_1 p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -1086,7 +1086,7 @@ input[placeholder]{
     margin: 28px 0px 63px;
     max-width: 330px;
 }
-.card_3 .inner_div{
+.about_page_section_3 .card_3 .inner_div{
     background-color: #5CA515;
     display: inline-block;
     padding: 14px;
@@ -1100,12 +1100,12 @@ input[placeholder]{
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.card_3{
+.about_page_section_3 .card_3{
     background-color: #F9F9F9;
     padding: 20px;
     border-radius: 10px;
 }
-.card_3 h3{
+.about_page_section_3 .card_3 h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -1114,7 +1114,7 @@ input[placeholder]{
     margin: 0;
     max-width: 242px;
 }
-.card_3 p{
+.about_page_section_3 .card_3 p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -1123,7 +1123,7 @@ input[placeholder]{
     margin: 30px 0px 78px 0px; 
     max-width: 300px;
 }
-.card_4 .inner_div{
+.about_page_section_3 .card_4 .inner_div{
     background-color: #5CA515;
     display: inline-block;
     padding: 18px;
@@ -1137,12 +1137,12 @@ input[placeholder]{
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.card_4{
+.about_page_section_3 .card_4{
     background-color: #F9F9F9;
     padding: 12px;
     border-radius: 10px;
 }
-.card_4 h3{
+.about_page_section_3 .card_4 h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -1151,7 +1151,7 @@ input[placeholder]{
     margin: 0;
     max-width: 327px;
 }
-.card_4 p{
+.about_page_section_3 .card_4 p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -1160,6 +1160,520 @@ input[placeholder]{
     max-width: 300px;
     margin: 40px 0px 61px 0px;
 }
-.card_1,.card_2,.card_3,.card_4,.card_5{
+.about_page_section_3 .card_1,.card_2,.card_3,.card_4,.card_5{
     margin-bottom: 30px;
+}
+
+
+
+/* subscription page css */
+
+.subscription_banner_section_outer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 825px;
+}
+.subscription_banner_section_inner h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 81px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 0;
+    max-width: 732px;
+}
+.subscription_banner_section_inner h2 span{
+    font-weight: 600;
+    color: #89C131;
+}
+.subscription_banner_section_inner p{
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    max-width: 628px;
+    margin-top: 63px;
+}
+
+/* subscription membership section */
+
+.subscription_membership_section_inner h2{
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 120px;
+}
+.subscription_membership_section_inner h2 span{
+    font-weight: 600;
+    color: #89C131;
+}
+.subscription_membership_section_inner p{
+    font-family: 'Roboto';
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #2A2A2E;
+    margin-top: 41px;
+    margin-bottom: 94px;
+    max-width: 918px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* card section css */
+
+.subscription_membership_card{
+    margin-bottom: 166px;
+}
+
+/* card 1 */
+
+.subscription_membership_card_inner .card_1{
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+}
+
+.subscription_membership_card_inner .card_1 .inner h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+    margin-top: 29px;
+}
+.subscription_membership_card_inner .card_1 .inner p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #939395;
+    margin: 20px 0px 0px 0px;
+    max-width: 234px;
+    padding-bottom: 26px;
+    border-bottom: 2px solid #939395;
+}
+.subscription_membership_card_inner .card_1 .inner_bottom ul{
+    margin-top:38px;
+}
+.subscription_membership_card_inner .card_1 .inner_bottom ul li{
+    display: flex;
+    align-items: flex-start;
+}
+.subscription_membership_card_inner .card_1 .inner_bottom ul li h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 31px;
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_1 .inner_bottom .inner_bottom_inner h4{
+    margin: 0;
+}
+.subscription_membership_card_inner .card_1 .inner_bottom .inner_bottom_inner{
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_1 .inner_bottom ul li p{
+    color: #8E8A8A;
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+.subscription_membership_card_inner .card_1 .inner_bottom ul li span{
+    display: inline-block;
+    margin-top: -7px;
+}
+
+.subscription_membership_card_inner .card_1 .btn_outer{
+    background: #89C131;
+    border-radius: 3px;
+    padding: 12px 42px;
+    transform: skew(-26deg);
+    display: inline-block;
+    margin-left: 23px;
+    margin-bottom: 29px;
+    &:hover{
+        box-shadow: -2px 20px 29px 1px #dbf5b1;
+    }
+}
+.subscription_membership_card_inner .card_1 .btn_outer span{
+    display: inline-block;
+    transform: skew(26deg);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+/* card 2 */
+.subscription_membership_card_inner .card_2{
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+}
+.subscription_membership_card_inner .card_2 .inner h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2A2A2E;
+    margin: 29px 0px 0px 0px;
+}
+.subscription_membership_card_inner .card_2 .inner p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #939395;
+    margin: 20px 0px 0px 0px;
+    max-width: 234px;
+    padding-bottom: 26px;
+    border-bottom: 2px solid #939395;
+}
+.subscription_membership_card_inner .card_2 .inner_bottom ul{
+    margin-top:38px;
+}
+.subscription_membership_card_inner .card_2 .inner_bottom ul li{
+    display: flex;
+    align-items: flex-start;
+}
+.subscription_membership_card_inner .card_2 .inner_bottom ul li h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 31px;
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_2 .inner_bottom .inner_bottom_inner h4{
+    margin: 0;
+}
+.subscription_membership_card_inner .card_2 .inner_bottom .inner_bottom_inner{
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_2 .inner_bottom ul li p{
+    color: #8E8A8A;
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+.subscription_membership_card_inner .card_2 .inner_bottom ul li span{
+    display: inline-block;
+    margin-top: -7px;
+}
+
+.subscription_membership_card_inner .card_2 .btn_outer{
+    background: #89C131;
+    border-radius: 3px;
+    padding: 12px 42px;
+    transform: skew(-26deg);
+    display: inline-block;
+    margin-left: 23px;
+    margin-bottom: 29px;
+    &:hover{
+        box-shadow: -2px 20px 29px 1px #dbf5b1;
+    }
+}
+.subscription_membership_card_inner .card_2 .btn_outer span{
+    display: inline-block;
+    transform: skew(26deg);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* card 3 css */
+
+.subscription_membership_card_inner .card_3{
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+}
+.subscription_membership_card_inner .card_3 .inner h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #5E3120;
+    margin: 29px 0px 0px 0px;
+}
+.subscription_membership_card_inner .card_3 .inner p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #939395;
+    margin: 20px 0px 0px 0px;
+    max-width: 234px;
+    padding-bottom: 26px;
+    border-bottom: 2px solid #939395;
+}
+.subscription_membership_card_inner .card_3 .inner_bottom ul{
+    margin-top:38px;
+}
+.subscription_membership_card_inner .card_3 .inner_bottom ul li{
+    display: flex;
+    align-items: flex-start;
+}
+.subscription_membership_card_inner .card_3 .inner_bottom ul li h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 31px;
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_3 .inner_bottom .inner_bottom_inner h4{
+    margin: 0;
+}
+.subscription_membership_card_inner .card_3 .inner_bottom .inner_bottom_inner{
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_3 .inner_bottom ul li p{
+    color: #8E8A8A;
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+.subscription_membership_card_inner .card_3 .inner_bottom ul li span{
+    display: inline-block;
+    margin-top: -7px;
+}
+
+.subscription_membership_card_inner .card_3 .btn_outer{
+    background: #89C131;
+    border-radius: 3px;
+    padding: 12px 42px;
+    transform: skew(-26deg);
+    display: inline-block;
+    margin-left: 23px;
+    margin-bottom: 29px;
+    &:hover{
+        box-shadow: -2px 20px 29px 1px #dbf5b1;
+    }
+}
+.subscription_membership_card_inner .card_3 .btn_outer span{
+    display: inline-block;
+    transform: skew(26deg);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* card 4 css */
+
+.subscription_membership_card_inner .card_4{
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+}
+.subscription_membership_card_inner .card_4 .inner h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #89C131;
+    margin: 29px 0px 0px 0px;
+}
+.subscription_membership_card_inner .card_4 .inner p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #939395;
+    margin: 20px 0px 0px 0px;
+    max-width: 234px;
+    padding-bottom: 26px;
+    border-bottom: 2px solid #939395;
+}
+.subscription_membership_card_inner .card_4 .inner_bottom ul{
+    margin-top:38px;
+
+}
+.subscription_membership_card_inner .card_4 .inner_bottom ul li{
+    display: flex;
+    align-items: flex-start;
+    &:last-child{
+        margin-bottom: 21px;
+    }
+}
+.subscription_membership_card_inner .card_4 .inner_bottom ul li h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 31px;
+    margin-left: 11px;
+}
+
+.subscription_membership_card_inner .card_4 .inner_bottom ul li p{
+    color: #8E8A8A;
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+.subscription_membership_card_inner .card_4 .inner_bottom ul li span{
+    display: inline-block;
+    margin-top: -7px;
+}
+
+.subscription_membership_card_inner .card_4 .btn_outer{
+    background: #89C131;
+    border-radius: 3px;
+    padding: 12px 42px;
+    transform: skew(-26deg);
+    display: inline-block;
+    margin-left: 23px;
+    margin-bottom: 29px;
+    &:hover{
+        box-shadow: -2px 20px 29px 1px #dbf5b1;
+    }
+}
+.subscription_membership_card_inner .card_4 .btn_outer span{
+    display: inline-block;
+    transform: skew(26deg);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* card 5 css */
+
+.subscription_membership_card_inner .card_5{
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+    border-radius: 12px;
+}
+.subscription_membership_card_inner .card_5 .inner h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #5CA515;
+    margin: 29px 0px 0px 0px;
+}
+.subscription_membership_card_inner .card_5 .inner p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #939395;
+    margin: 20px 0px 0px 0px;
+    max-width: 234px;
+    padding-bottom: 26px;
+    border-bottom: 2px solid #939395;
+}
+.subscription_membership_card_inner .card_5 .inner_bottom ul{
+    margin-top:38px;
+}
+.subscription_membership_card_inner .card_5 .inner_bottom ul li{
+    display: flex;
+    align-items: flex-start;
+    &:last-child{
+        margin-bottom: 18px;
+    }
+}
+.subscription_membership_card_inner .card_5 .inner_bottom ul li h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 31px;
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_5 .inner_bottom .inner_bottom_inner h4{
+    margin: 0;
+}
+.subscription_membership_card_inner .card_5 .inner_bottom .inner_bottom_inner{
+    margin-left: 11px;
+}
+.subscription_membership_card_inner .card_5 .inner_bottom ul li p{
+    color: #8E8A8A;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.subscription_membership_card_inner .card_5 .inner_bottom ul li span{
+    display: inline-block;
+    margin-top: -7px;
+}
+
+.subscription_membership_card_inner .card_5 .btn_outer{
+    background: #89C131;
+    border-radius: 3px;
+    padding: 12px 42px;
+    transform: skew(-26deg);
+    display: inline-block;
+    margin-left: 23px;
+    margin-bottom: 29px;
+    &:hover{
+        box-shadow: -2px 20px 29px 1px #dbf5b1;
+    }
+}
+.subscription_membership_card_inner .card_5 .btn_outer span{
+    display: inline-block;
+    transform: skew(26deg);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* subscribe section back ground */
+
+.subscription_membership_card::before{
+    content: "";
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 690px;
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    left: 0;
+}
+.subscription_membership_section{
+    position: relative;
+}
+.subscription_membership_section_card_bg{
+    position: absolute;
+    z-index: -4;
+    left: 0;
+    top: 125px;
 }
