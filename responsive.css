@@ -251,48 +251,6 @@
   .headerinner_left{
     margin: 25px 0px 25px 0px;
   }
-  .headerinner_right_div{
-    display: block;
-  }
-  .headerinner_right_top{
-    display: none;
-  }
-  .headerinner_right_bottom_div {
-    display: block;
-    position: absolute;
-    top: 106px;
-    right: -100%;
-    margin: 0;
-    padding: 0;
-    width: 70%;
-    z-index: 1;
-  }
-  .headerinner_right_bottom_div ul{
-    flex-direction: column;
-    background-color: #2A2A2E;
-    align-items: flex-start;
-  }
-  .headerinner_right_bottom_div ul li{
-    margin: 0;
-    text-align: left;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    &:first-child{
-      margin-top: 10px;
-    }
-  }
-  .headerinner_right_bottom_div ul li a{
-    color: #ffffff;
-    border-bottom: 2px solid transparent;
-    &:hover{
-      color: #89C131;
-      border-bottom: 2px solid #ffffff;
-      
-    }
-  }
-  .toggle_btn a{
-    
-  }
   .logo_image{
     width: 20%;
     height: 20%;
@@ -529,7 +487,7 @@
   }
   .about_page_col_inner_right{
     margin: 0;
-    background-image: url(images/about_recepe_section_right_img.jpg);
+    background-image: url('images/about_recepe_section_right_img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
