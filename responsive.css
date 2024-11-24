@@ -17,7 +17,7 @@
 .headerinner_right_bottom_div{
   position: absolute;
   top: 149px;
-  right: 0;
+  right: -100%;
   width: 30% ;
 }
 .headerinner_right_bottom_div ul{
