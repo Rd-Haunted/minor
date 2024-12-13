@@ -2000,6 +2000,12 @@ ul{
     right: -20px;
     z-index: -1;
 }
+.login_section .sign_bg_tree{
+    position: absolute;
+    top: 64%;
+    left: 0;
+    z-index: -1;
+}
 .login_section .login_box .username{
     top: 33.6%;
     bottom: 63.36%;
