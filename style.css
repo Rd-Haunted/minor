@@ -2007,8 +2007,6 @@ ul{
     z-index: -1;
 }
 .login_section .login_box .username{
-    top: 33.6%;
-    bottom: 63.36%;
     background: #FFFFFF;
     border: 1px solid #C3C6C8;
     border-radius: 12px;
@@ -2022,8 +2020,6 @@ ul{
     }
 }
 .login_section .login_box .password{
-    top: 33.6%;
-    bottom: 63.36%;
     background: #FFFFFF;
     border: 1px solid #C3C6C8;
     border-radius: 12px;
